@@ -1,0 +1,33 @@
+C:\Users\NEW USER\Desktop\ASP.NET Learn\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\NEW USER\Desktop\ASP.NET Learn\bin\Debug\net7.0\appsettings.json
+C:\Users\NEW USER\Desktop\ASP.NET Learn\bin\Debug\net7.0\ASP.NET Learn.exe
+C:\Users\NEW USER\Desktop\ASP.NET Learn\bin\Debug\net7.0\ASP.NET Learn.deps.json
+C:\Users\NEW USER\Desktop\ASP.NET Learn\bin\Debug\net7.0\ASP.NET Learn.runtimeconfig.json
+C:\Users\NEW USER\Desktop\ASP.NET Learn\bin\Debug\net7.0\ASP.NET Learn.dll
+C:\Users\NEW USER\Desktop\ASP.NET Learn\bin\Debug\net7.0\ASP.NET Learn.pdb
+C:\Users\NEW USER\Desktop\ASP.NET Learn\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\NEW USER\Desktop\ASP.NET Learn\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\NEW USER\Desktop\ASP.NET Learn\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\NEW USER\Desktop\ASP.NET Learn\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\NEW USER\Desktop\ASP.NET Learn\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\NEW USER\Desktop\ASP.NET Learn\obj\Debug\net7.0\ASP.NET Learn.csproj.AssemblyReference.cache
+C:\Users\NEW USER\Desktop\ASP.NET Learn\obj\Debug\net7.0\ASP.NET Learn.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NEW USER\Desktop\ASP.NET Learn\obj\Debug\net7.0\ASP.NET Learn.AssemblyInfoInputs.cache
+C:\Users\NEW USER\Desktop\ASP.NET Learn\obj\Debug\net7.0\ASP.NET Learn.AssemblyInfo.cs
+C:\Users\NEW USER\Desktop\ASP.NET Learn\obj\Debug\net7.0\ASP.NET Learn.csproj.CoreCompileInputs.cache
+C:\Users\NEW USER\Desktop\ASP.NET Learn\obj\Debug\net7.0\ASP.NET Learn.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\NEW USER\Desktop\ASP.NET Learn\obj\Debug\net7.0\ASP.NET Learn.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\NEW USER\Desktop\ASP.NET Learn\obj\Debug\net7.0\staticwebassets\msbuild.ASP.NET Learn.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\NEW USER\Desktop\ASP.NET Learn\obj\Debug\net7.0\staticwebassets\msbuild.build.ASP.NET Learn.props
+C:\Users\NEW USER\Desktop\ASP.NET Learn\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ASP.NET Learn.props
+C:\Users\NEW USER\Desktop\ASP.NET Learn\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ASP.NET Learn.props
+C:\Users\NEW USER\Desktop\ASP.NET Learn\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\NEW USER\Desktop\ASP.NET Learn\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\NEW USER\Desktop\ASP.NET Learn\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\NEW USER\Desktop\ASP.NET Learn\obj\Debug\net7.0\scopedcss\bundle\ASP.NET Learn.styles.css
+C:\Users\NEW USER\Desktop\ASP.NET Learn\obj\Debug\net7.0\ASP.NET Learn.csproj.CopyComplete
+C:\Users\NEW USER\Desktop\ASP.NET Learn\obj\Debug\net7.0\ASP.NET Learn.dll
+C:\Users\NEW USER\Desktop\ASP.NET Learn\obj\Debug\net7.0\refint\ASP.NET Learn.dll
+C:\Users\NEW USER\Desktop\ASP.NET Learn\obj\Debug\net7.0\ASP.NET Learn.pdb
+C:\Users\NEW USER\Desktop\ASP.NET Learn\obj\Debug\net7.0\ASP.NET Learn.genruntimeconfig.cache
+C:\Users\NEW USER\Desktop\ASP.NET Learn\obj\Debug\net7.0\ref\ASP.NET Learn.dll
