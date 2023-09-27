@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace ASP.NET_Learn.models
 {
-    public class character
+    public class Character
     {
         public int Id { get; set; }
         public string Name { get; set; } = "Richard";
