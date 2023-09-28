@@ -11,11 +11,16 @@ namespace ASP.NET_Learn.Controllers
     public class CharacterController : ControllerBase
     {
         //mock character that can return to the client
-        private static Character knight = new Character();
+        //private static Character knight = new Character();
+
+        private static List<Character> characters = new List<Character>{
+            new Character(),
+            new Character { Name = "Paul"}
+            };
         //recieve our game character    
         [HttpGet]
         public ActionResult<Character> Get() {
-            return Ok(knight);
+            return Ok(characters);
             //currently everything looks confusing lol            
         }
     }
