@@ -12,7 +12,6 @@ namespace ASP.NET_Learn.Controllers
     {
         //mock character that can return to the client
         private static Character knight = new Character();
-
         //recieve our game character    
         [HttpGet]
         public ActionResult<Character> Get() {
