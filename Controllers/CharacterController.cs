@@ -1,4 +1,3 @@
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,11 +13,11 @@ namespace ASP.NET_Learn.Controllers
         //mock character that can return to the client
         private static Character knight = new Character();
 
-        //recieve our game character
-        public IActionResult Get() {
+        //recieve our game character    
+        [HttpGet]
+        public ActionResult<Character> Get() {
             return Ok(knight);
-            //currently everythig looks confusing lol            
+            //currently everything looks confusing lol            
         }
-
     }
 }
