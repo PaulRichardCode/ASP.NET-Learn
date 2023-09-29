@@ -18,10 +18,15 @@ namespace ASP.NET_Learn.Controllers
             new Character { Name = "Paul"}
             };
         //recieve our game character    
-        [HttpGet]
+        [HttpGet("GetAll")]
         public ActionResult<Character> Get() {
             return Ok(characters);
-            //currently everything looks confusing lol            
+            //currently everything looks confusing lol
+        }
+
+        [HttpGet]
+        public ActionResult<Character> GetSingle() {
+            return Ok(characters[0]);
         }
     }
 }
