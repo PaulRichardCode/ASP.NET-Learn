@@ -15,7 +15,7 @@ namespace ASP.NET_Learn.Controllers
 
         private static List<Character> characters = new List<Character>{
             new Character(),
-            new Character { Name = "Paul"}
+            new Character { Id = 1, Name = "Paul"}
             };
         //recieve our game character    
         [HttpGet("GetAll")]
@@ -24,9 +24,9 @@ namespace ASP.NET_Learn.Controllers
             //currently everything looks confusing lol
         }
 
-        [HttpGet]
-        public ActionResult<Character> GetSingle() {
-            return Ok(characters[0]);
+        [HttpGet("{id}")]
+        public ActionResult<Character> GetSingle(int id) {
+            return Ok(characters.FirstOrDefault(c => c.Id == id));
         }
     }
 }
