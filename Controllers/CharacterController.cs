@@ -25,7 +25,8 @@ namespace ASP.NET_Learn.Controllers
         }
 
         [HttpGet("{id}")]
-        public ActionResult<Character> GetSingle(int id) {
+
+        public ActionResult<Character> GetLife(int id) {
             return Ok(characters.FirstOrDefault(c => c.Id == id));
         }
     }
