@@ -19,15 +19,21 @@ namespace ASP.NET_Learn.Controllers
             };
         //recieve our game character    
         [HttpGet("GetAll")]
-        public ActionResult<Character> Get() {
+        public ActionResult<List<Character>> Get() {
             return Ok(characters);
             //currently everything looks confusing lol
         }
 
         [HttpGet("{id}")]
-
-        public ActionResult<Character> GetLife(int id) {
+        
+        public ActionResult<Character> GetSingle(int id) {
             return Ok(characters.FirstOrDefault(c => c.Id == id));
+        }
+
+        [HttpPost]
+        public ActionResult<List<Character>> AddCharacter(Character newCharacter) {
+            characters.Add(newCharacter);
+            return Ok(characters);
         }
     }
 }

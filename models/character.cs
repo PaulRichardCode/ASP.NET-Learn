@@ -17,5 +17,10 @@ namespace ASP.NET_Learn.models
         public int Intelligence { get; set; } = 10;
 
         public RpgClass Class { get; set; } = RpgClass.Knight;
+
+        internal static void Add(Character newCharacter)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
