@@ -36,7 +36,7 @@ namespace ASP.NET_Learn.Controllers
             return Ok(characters);
         }
 
-       [HttpGet]
+       
        
     }
 }
