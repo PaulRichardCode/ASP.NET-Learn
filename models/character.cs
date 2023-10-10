@@ -12,7 +12,7 @@ namespace ASP.NET_Learn.models
     {
         public int Id { get; set; }
         public string Name { get; set; } = "Richard";
-        public int HtPoint { get; set; } = 100;
+        public int HitPoint { get; set; } = 100;
         public int Strength { get; set; } = 10;
         public int Defense { get; set; } = 10;
         public int Intelligence { get; set; } = 10;
@@ -26,15 +26,6 @@ namespace ASP.NET_Learn.models
     }
 }
 
-namespace Recap
-{
-    public class PlayerStat
-    {
-        public int Ide {get; set;}
-        public int MyProperty { get; set; } = 100;
-        
-        public string Name {get;set;} = "Japos";
-    }
-}
+
 
 
