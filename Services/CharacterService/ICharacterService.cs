@@ -3,13 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ASP.NET_Learn.Services.CharacterService
-{
-    public interface ICharacterService
+    namespace ASP.NET_Learn.Services.CharacterService
     {
-        List<Character> GetCharacters();
+        public interface ICharacterService
+        {
+            List<Character> GetAllCharacters();
 
-        Character GetCharacterById(int Id);
+            Character GetCharacterById(int Id);
 
+            List<Character> AddCharacters(Character newCharacter);
+            //www
+        }
     }
-}
