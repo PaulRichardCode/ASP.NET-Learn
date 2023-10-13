@@ -13,33 +13,28 @@ namespace ASP.NET_Learn.Controllers
         //mock character that can return to the client
         //private static Character knight = new Character();
 
-        private static List<Character> characters = new List<Character>{
-            new Character(),
-            new Character { Id = 1, Name = "Paul"}
-            };
-        private readonly ICharacterService characterService;
+        private readonly ICharacterService _characterService;
 
         public CharacterController(ICharacterService characterService)
         {
-            this.characterService = characterService;
+            _characterService = characterService;
         }
         //recieve our game character    
         [HttpGet("GetAll")]
         public ActionResult<List<Character>> Get() {
-            return Ok(characters);
+            return Ok(_characterService.GetAllCharacters());
             //currently everything looks confusing lol
         }
 
         [HttpGet("{id}")]
         
         public ActionResult<Character> GetSingle(int id) {
-            return Ok(characters.FirstOrDefault(c => c.Id == id));
+            return Ok(_characterService.GetCharacterById(id));
         }
 
         [HttpPost]
         public ActionResult<List<Character>> AddCharacter(Character newCharacter) {
-            characters.Add(newCharacter);
-            return Ok(characters);
+            return Ok(_characterService.AddCharacters(newCharacter));
         }
       
  
