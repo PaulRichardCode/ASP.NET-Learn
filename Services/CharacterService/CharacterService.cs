@@ -8,10 +8,12 @@ namespace ASP.NET_Learn.Services.CharacterService
     public class CharacterService : ICharacterService
     {
 
-          private static List<Character> characters = new List<Character>{
+        private static List<Character> characters = new List<Character>{
             new Character(),
             new Character { Id = 1, Name = "Paul"}
-            };
+         };
+
+
         public List<Character> AddCharacters(Character newCharacter)
         {
             characters.Add(newCharacter);

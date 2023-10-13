@@ -17,6 +17,12 @@ namespace ASP.NET_Learn.Controllers
             new Character(),
             new Character { Id = 1, Name = "Paul"}
             };
+        private readonly ICharacterService characterService;
+
+        public CharacterController(ICharacterService characterService)
+        {
+            this.characterService = characterService;
+        }
         //recieve our game character    
         [HttpGet("GetAll")]
         public ActionResult<List<Character>> Get() {

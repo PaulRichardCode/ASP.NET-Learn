@@ -1,4 +1,5 @@
 global using ASP.NET_Learn.models;
+global using ASP.NET_Learn.Services.CharacterService;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
